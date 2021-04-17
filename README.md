@@ -15,3 +15,16 @@
 ## return
 
 FizzBuzzゲームの結果を文字列で返す
+
+## サンプルの動かし方
+
+1. Cargo.tomlと同じ階層に移動
+2. パッケージのビルド  
+   `$ wasm-pack build --scope soichiro_dev`  
+
+3. パッケージのウェブでの利用  
+   `$ cd sample`  
+   `$ npm install`  
+   `$ npm run serve`  
+
+4. これでウェブサーバーが起動します。`http://localhost:8080` を読み込んでください  
