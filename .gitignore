@@ -1,5 +1,7 @@
 /pkg/
 /target/
+/.DS_Store
 /Cargo.lock
+/sample/.DS_Store
 /sample/node_modules/
 /sample/package-lock.json
